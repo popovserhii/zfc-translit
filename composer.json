@@ -1,6 +1,6 @@
 {
-  "name": "agerecompany/translit",
-  "description": "Transliteration Module",
+  "name": "agerecompany/zfc-translit",
+  "description": "Transliteration Module for ZF2",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Translit\\": "src/"
+      "Agere\\Translit\\": "src/"
     }
   }
 }

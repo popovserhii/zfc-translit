@@ -1,0 +1,33 @@
+{
+  "name": "agerecompany/translit",
+  "description": "Transliteration Module",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "translit",
+    "agere"
+  ],
+  "authors": [
+    {
+      "name": "Sergiy Popov",
+      "email": "popow.sergiy@gmail.com",
+      "homepage": "http://agere.com.ua/",
+      "role": "Developer"
+    },
+    {
+      "name": "Vlad Kozak",
+      "email": "vlad.gem.typ@gmail.com",
+      "homepage": "http://agere.com.ua/",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Translit\\": "src/"
+    }
+  }
+}

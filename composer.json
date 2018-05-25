@@ -1,6 +1,6 @@
 {
   "name": "popov/zfc-translit",
-  "description": "Transliteration Module for ZF2",
+  "description": "Transliteration Module for ZF3",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -21,13 +21,12 @@
       "role": "Developer"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
     "php": ">=5.5"
   },
   "autoload": {
     "psr-4": {
-      "Agere\\Translit\\": "src/"
+      "Popov\\Translit\\": "src/"
     }
   }
 }
